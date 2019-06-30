@@ -1,0 +1,85 @@
+body{
+  background-color:#d2b48c;
+  color:grey;
+}
+header, main, nav,footer {
+  text-align: center;
+}
+nav a{ /*links within "nav" container */
+  padding:15px;
+  padding-bottom:4px;
+  font-size: 1.8em;
+  text-decoration: none; /* removes underline */
+  color: white;          /*by default, links are blue*/
+}
+nav a:hover, #currentPage, #contactPage{ /*pseudo class*/
+  border-bottom:2px #ff4500 solid;
+  font-size: 2em;
+  transition: .10s; /* transition effect */  
+}
+main{
+  display: flex;
+  justify-content:center;
+}
+table{
+  margin: 0px auto;
+}
+td{
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+td strong{
+  color:orange;
+}
+#table-header{
+  background-color:#351a00;
+}
+.table-row{
+  background-color: #753900;
+}
+ul{
+      width:500px;
+      margin:0 auto;
+      text-align:left;
+}
+#content,{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  color: white;
+}
+.hobby{
+  color:yellow;
+}
+h1 {
+  font-family:'Pacifico',cursive;
+  font-size: 4em;
+  margin-bottom 0px;
+}
+footer{
+   font-size: 12px;
+   color: grey;
+}
+h2 {
+  font-family: 'Oswald';
+  font-size: 3em;
+  margin-bottom 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  color: black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
