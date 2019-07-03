@@ -22,7 +22,7 @@ main{
   justify-content:center;
 }
 h2{
-   font-size: 18px;
+   font-size: 25px;
    color:grey;
 }
 h1 {
@@ -37,4 +37,7 @@ h3 {
    text-align: center;
    color:grey;
    font-size: 2em;
+}
+ul li{
+ font-size:30px;
 }
