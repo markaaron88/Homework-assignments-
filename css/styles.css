@@ -21,18 +21,9 @@ main{
   display: flex;
   justify-content:center;
 }
-#content,{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-p{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5%;
-  color: white;
+h2{
+   font-size: 18px;
+   color:grey;
 }
 h1 {
   border: 1px solid red;
@@ -42,19 +33,8 @@ h1 {
   margin-bottom 0px;
   color:grey;
 }
-footer{
-   font-size: 12px;
-   color: grey;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-marquee{
- color: white;
-}
-li {
-  display: inline;
+h3 {
+   text-align: center;
+   color:grey;
+   font-size: 2em;
 }
